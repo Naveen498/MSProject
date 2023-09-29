@@ -1,0 +1,13 @@
+package com.javatechie.ps.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "Payment_TB")
+public class Payment {
+
+	private int paymentId;
+	private String payamentStatus;
+	private String transactionId;
+}

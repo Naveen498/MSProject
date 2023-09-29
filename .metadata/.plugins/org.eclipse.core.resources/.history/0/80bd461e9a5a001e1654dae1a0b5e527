@@ -1,0 +1,5 @@
+package com.javatechie.os.entity;
+
+public class Order {
+
+}

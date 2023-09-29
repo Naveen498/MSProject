@@ -1,0 +1,5 @@
+package com.javatechie.ps.repository;
+
+public interface PaymentRepository {
+
+}

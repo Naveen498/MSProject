@@ -1,0 +1,21 @@
+package com.javatechie.os.api;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class OrderService {
+	
+	@Autowired
+	private OrderRepository orderRepo;
+	
+	public Order saveOrder(TransactionRequest tRequest) {
+		Order order = tRequest.getOrder();
+		Payment payment = tRequest.getPayment();
+		payment.setOrderId(order.getId());
+		payment.setAmount(order.getPrice());
+		return orderRepo.save(order);
+		
+	}
+
+}

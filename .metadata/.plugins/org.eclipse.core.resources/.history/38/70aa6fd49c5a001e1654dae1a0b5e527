@@ -1,0 +1,19 @@
+package com.javatechie.ps.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Table(name = "Payment_TB")
+@Data
+public class Payment {
+
+	@Id
+	private int paymentId;
+	private String payamentStatus;
+	private String transactionId;
+}

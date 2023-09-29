@@ -1,0 +1,8 @@
+package com.javatechie.os.api;
+
+public class TransactionResponse {
+	private Order order;
+	private int amount;
+	private String transactionId;
+	
+}

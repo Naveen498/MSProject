@@ -1,0 +1,21 @@
+package com.javatechie.ps.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.javatechie.ps.entity.Payment;
+import com.javatechie.ps.repository.PaymentRepository;
+
+@Service
+public class PaymentService {
+
+	@Autowired
+	private PaymentRepository paymentRepo;
+	
+	public Payment doPayment(Payment payment) {
+		
+		payment.
+		return paymentRepo.save(payment);
+		
+	}
+}

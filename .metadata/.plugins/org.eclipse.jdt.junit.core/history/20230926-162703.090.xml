@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OrderServiceApplicationTests" project="order-service" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.javatechie.os.api.OrderServiceApplicationTests" time="2.488" displayname="OrderServiceApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.javatechie.os.api.OrderServiceApplicationTests]">
+    <testcase name="contextLoads1" classname="com.javatechie.os.api.OrderServiceApplicationTests" time="2.479" displayname="contextLoads1()" uniqueid="[engine:junit-jupiter]/[class:com.javatechie.os.api.OrderServiceApplicationTests]/[method:contextLoads1()]"/>
+    <testcase name="contextLoads2" classname="com.javatechie.os.api.OrderServiceApplicationTests" time="0.005" displayname="contextLoads2()" uniqueid="[engine:junit-jupiter]/[class:com.javatechie.os.api.OrderServiceApplicationTests]/[method:contextLoads2()]"/>
+    <testcase name="contextLoads3" classname="com.javatechie.os.api.OrderServiceApplicationTests" time="0.002" displayname="contextLoads3()" uniqueid="[engine:junit-jupiter]/[class:com.javatechie.os.api.OrderServiceApplicationTests]/[method:contextLoads3()]"/>
+  </testsuite>
+</testrun>

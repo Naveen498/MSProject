@@ -1,0 +1,28 @@
+package com.javatechie.ps.api;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Table(name = "Payment_TB")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Payment {
+
+	@Id
+	@GeneratedValue
+	private int paymentId;
+	private String payamentStatus;
+	private String transactionId;
+	private int orderId;
+	private int amount;
+	
+	
+	
+}

@@ -1,0 +1,9 @@
+package com.javatechie.os.entity;
+
+public class Order {
+
+	private int id;
+	private String name;
+	private int qty;
+	private double price;
+}

@@ -1,0 +1,21 @@
+package com.javatechie.ps.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.javatechie.ps.entity.Payment;
+import com.javatechie.ps.service.PaymentService;
+
+@RestController
+public class PaymentController {
+	
+	@Autowired
+	private PaymentService paymentService;
+	
+	public Payment doPayment(Payment payment) {
+		return paymentService.doPayment(payment);
+		
+	}
+	
+
+}

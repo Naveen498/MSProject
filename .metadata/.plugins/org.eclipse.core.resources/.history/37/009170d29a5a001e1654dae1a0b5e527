@@ -1,0 +1,20 @@
+package com.javatechie.os.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.javatechie.os.entity.Order;
+import com.javatechie.os.repository.OrderRepository;
+
+@Service
+public class OrderService {
+	
+	@Autowired
+	OrderRepository orderRepo;
+	
+	public Order saveOrder(Order order) {
+		return orderRepo.save(order);
+		
+	}
+
+}
